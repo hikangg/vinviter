@@ -76,7 +76,7 @@ class HomeController extends Controller
     }
 */
     public function getTermsPage(){
-        return view('static.terms');
+        return view('app.landingPage');
     }
     public function getContactPage(){
         $name = $email = '';
