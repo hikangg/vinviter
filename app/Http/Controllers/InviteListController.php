@@ -56,7 +56,7 @@ class InviteListController extends Controller
 			return response($listBlock, 200);
 		}
 		else{
-			return response("error", 400);
+			return response("Unauthorized", 400);
 		}
 	}
 
